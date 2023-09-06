@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 34px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container{
+    background: linear-gradient(145deg, rgb(114, 201, 236) 0%, rgba(148,105,132,1) 5%, rgba(161,142,93,1) 12%, rgba(230, 152, 19, 0.936) 50%, rgba(216,188,70,1) 92%, rgba(252,176,69,1) 100%);
+
+
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="radio"],
+input[type="password"],
+input[type="date"],
+select,
+textarea,
+fieldset{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #b67777;
+    border-radius: 5px;
+    margin: 5px;
+}
+.hidding{
+     text-align: center;
+}
+button{
+    background-color: aquamarine;
+    color: #751111;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+
+
+
+}
+button:hover{
+    background-color: rgb(32, 234, 153);
+
+}
+.bt{
+    background-color: rgb(83, 173, 205);
+    color: #542222;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+
+
+
+}
+.bt:hover{
+    background-color: rgb(189, 67, 154);
+}
+.qr{
+    background: linear-gradient(145deg, rgb(114, 201, 236) 0%, rgba(148,105,132,1) 5%, rgba(161,142,93,1) 12%, rgba(230, 152, 19, 0.936) 50%, rgba(216,188,70,1) 92%, rgba(252,176,69,1) 100%);
+
+
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    text-align: center;
+}

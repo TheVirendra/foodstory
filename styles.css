@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+ 
+}
+
+header {
+  padding: 10px;
+background-color: rgb(45, 37, 37);
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.logo h1 {
+  margin: 12px;
+  padding: 0;
+  color: #f01111;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.restaurant1  button { 
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.restaurant2  button { 
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.restaurant3  button { 
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.restaurant4  button { 
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+main {
+  padding: 20px;
+  background-color: #443333;
+
+text-align: center;
+}
+.restaurant-listings{
+  color: #f2f2f2;
+}
+
+
+
+.restaurant2,.restaurant3,.restaurant4,.restaurant1{
+  border: 1px solid #cb1414;
+  padding: 5px;
+  margin-bottom: 5px;
+  background: linear-gradient(145deg, rgb(114, 201, 236) 0%, rgba(148,105,132,1) 5%, rgba(161,142,93,1) 12%, rgba(75, 172, 176, 0.643) 50%, rgba(216,188,70,1) 92%, rgba(252,176,69,1) 100%);
+}
+
+.restaurant img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  color:red ;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

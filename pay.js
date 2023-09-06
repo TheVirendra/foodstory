@@ -1,0 +1,1 @@
+onclick = document.getElementById("menu").href="Pankaj restro.html"
